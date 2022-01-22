@@ -4,12 +4,15 @@
   <div class="wrapper">
     <div class="container py-4">
       {%- if site.author %}
+      <span class="m-auto">
           {% if site.author.name -%}
             {{ site.author.name | escape }}
           {% endif -%}
           {% if site.author.email -%}
             <span> <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></span>
+            <span> phone: 18516782685</span>
           {%- endif %}
+      </span>
       {%- endif %}
     </div>
     <!--div class="footer-col-wrapper">
