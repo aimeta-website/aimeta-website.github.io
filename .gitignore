@@ -1,5 +1,2 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Static site — no build artifacts
+.DS_Store

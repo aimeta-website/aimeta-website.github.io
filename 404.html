@@ -1,25 +1,70 @@
----
-permalink: /404.html
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block not found — AIMeta</title>
+  <meta name="description" content="This block doesn't exist. Head back to the AIMeta homepage.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="AIMeta home">
+      <svg class="brand-cube" viewBox="0 0 64 64" aria-hidden="true">
+        <polygon points="32,4 60,19 32,34 4,19" fill="#6abe30" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+        <polygon points="4,19 32,34 32,60 4,45" fill="#8a5a3b" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+        <polygon points="60,19 32,34 32,60 60,45" fill="#6e452c" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand-name">AIMETA</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/press.html">Press</a>
+      <a href="/host.html">Host</a>
+      <a href="/fun.html">Fun</a>
+      <a href="/about.html">About</a>
+      <a href="/updates.html">Updates</a>
+      <a href="https://halifax.aimeta.press" class="nav-cta">Halifax ↗</a>
+    </nav>
+  </div>
+</header>
 
-<div class="container">
-  <h1>404</h1>
+<main>
+  <section class="notfound">
+    <div class="wrap">
+      <svg viewBox="0 0 64 64" aria-hidden="true" style="width:90px;margin:0 auto 10px;display:block;animation:floaty 6s ease-in-out infinite;">
+        <polygon points="32,4 60,19 32,34 4,19" fill="#8a5a3b" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+        <polygon points="4,19 32,34 32,60 4,45" fill="#6e452c" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+        <polygon points="60,19 32,34 32,60 60,45" fill="#57371f" stroke="#1e2634" stroke-width="4" stroke-linejoin="round"/>
+        <text x="32" y="46" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#fbf7ec">?</text>
+      </svg>
+      <h1>404</h1>
+      <p class="px" style="font-size:14px;margin-bottom:14px;">BLOCK NOT FOUND</p>
+      <p style="color:var(--ink-soft);max-width:440px;margin:0 auto 30px;">You dug straight down into nothing. This page doesn't exist — but the rest of the world is still here.</p>
+      <a class="btn btn-primary" href="/">Respawn at home</a>
+    </div>
+  </section>
+</main>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:none;padding-top:0;">
+      <span>© <span id="year">2026</span> AIMeta. AI for everyday life.</span>
+      <span>A product ecosystem developed by Shanghai Yimeng Intelligent Technology Co., Ltd.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>
