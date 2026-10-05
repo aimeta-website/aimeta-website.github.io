@@ -507,3 +507,7 @@ a.pixel-card:hover { transform: translate(4px, 4px); box-shadow: 4px 4px 0 var(-
   .footer-grid { grid-template-columns: 1fr; }
   .hero { padding: 72px 0 64px; }
 }
+
+.portal-banner{background:var(--ink);color:var(--paper);border-bottom:var(--border);}
+.portal-banner .wrap{display:flex;gap:10px;align-items:center;justify-content:center;padding:12px 0;font-size:15px;text-align:center;flex-wrap:wrap;}
+.portal-banner a{color:var(--sun);font-weight:800;}
